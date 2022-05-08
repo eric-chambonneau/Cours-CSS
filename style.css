@@ -1,0 +1,24 @@
+/*Fil rouge : seecteur, dimensions, couleurs*/
+/* Texte */
+/* background */
+/* Boxes */
+/* Positioning */
+/* Flexboxe */
+/* Grid */
+/* Pseudo classe */
+/* Débug */
+/* Responsive */
+
+@import url('https://fonts.googleapis.com/css2? family= Tapestry & display=swap');
+@import url('https://fonts.googleapis.com/css2? famille= Playfair+Display:ital@1 &family= Tapestry & display=swap');
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color: darkblue;
+    text-shadow: 5px 0 0 rgb(40, 177, 40);
+    text-align: center;
+    font-family : 'Playfair Display', sans-serif, serif ;
+
+}
