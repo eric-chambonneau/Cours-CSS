@@ -17,6 +17,7 @@
     src: url(./assets/NotoSans-Medium.ttf);
 }
 
+
 body {
     font-family: "font-1", sans-serif;
     background: url(./assets/sunset2.jpg) no-repeat fixed center/cover;
@@ -42,4 +43,37 @@ main {
     min-height: 500px;
     margin: 10px auto;
     padding: 10px 40px;
+    border-radius: 15px;
+    box-shadow: 0 2px 12px 5px blueviolet;
+}
+
+.positioning {
+    border: 2px solid skyblue;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+#circle {
+    height: 60px;
+    width: 60px;
+    background: skyblue;
+    padding: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: 110px;
+    box-shadow: 0 2px 12px 5px darkcyan;
+}
+
+#rectangle {
+    height: 15px;
+    width: 100px;
+    background: slateblue;
 }
