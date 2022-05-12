@@ -47,13 +47,18 @@ main {
     box-shadow: 0 2px 12px 5px blueviolet;
 }
 
-.positioning {
+.positioning, .flexbox {
     border: 2px solid skyblue;
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
     position: relative;
 
+}
+/********************* positioning **************************/
+
+.positioning {
+    position: relative;
 }
 
 h2 {
@@ -70,10 +75,34 @@ h2 {
     top: -10px;
     right: 110px;
     box-shadow: 0 2px 12px 5px darkcyan;
+    z-index: 1;
 }
 
 #rectangle {
     height: 15px;
     width: 100px;
     background: slateblue;
+    padding: 20px;
+    position: absolute;
+    bottom: 2px;
+    left: 50%
+    transform: translateX(-50%);
+}
+
+/************************* Flexbox ************************/
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    font-size: 0.7rem;
+    height: 160px;
+    width: 160px;
+    background: turquoise;
+    /*centrer verticalement*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
